@@ -4,16 +4,14 @@ body {
 
 header {
     background-color: darkgray;
-    width: 100%;
+    padding: .5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: inherit;
 }
 
-header h1, header h2, header div {
+header h1, header h2 {
     margin: 0;
-    padding: 10px;
 }
 
 .reservations {
@@ -51,17 +49,4 @@ footer div {
     margin: 20px;
     background-color: white;
     padding: 50px;
-}
-
-.add_button {
-    font-size: 50px;
-    font-weight: bolder;
-    background-color: darkgray;
-    margin: 10px auto;
-    padding: 10px;
-    position: fixed;
-    width: 60px;
-    text-align: center;
-    right: 0;
-    left: 0;
 }
